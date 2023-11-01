@@ -157,9 +157,3 @@ static async Task<IResult> GetNotesGroupedByUpdatedAtWithDateRange(DateTime from
 
 
 
-//dotnet ef migrations add InitialCreate
-//dotnet ef database update
-
-//dotnet ef dbcontext scaffold "server=note.mysql.database.azure.com;port=3306;user=notes;password=VTA8Q6i8>%T)wJk;database=notes" MySql.EntityFrameworkCore -o Entities
-
-//dotnet ef dbcontext scaffold "Name=ConnectionStrings:NotesConnection" MySql.EntityFrameworkCore -o Entities
