@@ -109,7 +109,7 @@ The following endpoints are available:
 - `GET /api/note/grouped-by-created-date`: Get notes grouped by their creation date within a date range.
 - `GET /api/note/grouped-by-updated-date`: Get notes grouped by their update date within a date range.
 
-You can use a tool like Swagger to explore and test these endpoints interactively by visiting [https://localhost:5001/swagger](https://localhost:7169/swagger).
+You can use a tool like Swagger to explore and test these endpoints interactively by visiting [https://localhost:7169/swagger](https://localhost:7169/swagger).
 
 ## Usage
 
