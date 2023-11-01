@@ -61,7 +61,12 @@ git clone git@github.com:MichelWakim/notes-api.git
 ```bash
 cd notes-api
 ```
-3. **Create an `appsettings.json` file in the project root and provide your MySQL database connection string.** Here's an example of the content of `appsettings.json`:
+3. **Open a terminal or command prompt in the project directory and use the following command to restore and install all the required NuGet packages:**
+```bash
+dotnet restore
+```
+This command will download and install all the NuGet packages listed in the project's `csproj` files.
+4. **Create an `appsettings.json` file in the project root and provide your MySQL database connection string.** Here's an example of the content of `appsettings.json`:
 
 ```json
 {
