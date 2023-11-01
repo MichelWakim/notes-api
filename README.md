@@ -95,7 +95,7 @@ dotnet build
 ```bash
 dotnet run
 ```
-The API should now be accessible at `https://localhost:7169`.
+The API should now be accessible at `https://localhost:7061`.
 
 ## Endpoints
 
@@ -109,7 +109,7 @@ The following endpoints are available:
 - `GET /api/note/grouped-by-created-date`: Get notes grouped by their creation date within a date range.
 - `GET /api/note/grouped-by-updated-date`: Get notes grouped by their update date within a date range.
 
-You can use a tool like Swagger to explore and test these endpoints interactively by visiting [https://localhost:7169/swagger](https://localhost:7169/swagger).
+You can use a tool like Swagger to explore and test these endpoints interactively by visiting [https://localhost:7061/swagger](https://localhost:7061/swagger).
 
 ## Usage
 
@@ -118,7 +118,7 @@ You can interact with the API using tools like `curl`, [Postman](https://www.pos
 Here's an example of how to create a new note using `curl`:
 
 ```bash
-curl -X POST "https://localhost:7169/api/note" -H "Content-Type: application/json" -d '{
+curl -X POST "https://localhost:7061/api/note" -H "Content-Type: application/json" -d '{
   "title": "Sample Note",
   "body": "This is a sample note content."
 }'
